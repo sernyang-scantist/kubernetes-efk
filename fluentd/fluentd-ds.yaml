@@ -27,6 +27,9 @@ spec:
             value: "http"
           - name: FLUENTD_SYSTEMD_CONF
             value: disable
+        envFrom:
+        - configMapRef:
+            name: testchangename
         resources:
           limits:
             memory: 512Mi
@@ -39,6 +42,9 @@ spec:
         - name: varlibdockercontainers
           mountPath: /var/lib/docker/containers
           readOnly: true
+        # - name: config-indexname
+        #   mountPath: /etc/config (should be path of already existent file..?)
+        #   readOnly: true
       terminationGracePeriodSeconds: 30
       volumes:
       - name: varlog
@@ -47,3 +53,6 @@ spec:
       - name: varlibdockercontainers
         hostPath:
           path: /var/lib/docker/containers
+      # - name: config-indexname
+      #   configMap:
+      #     name: mountasvolume

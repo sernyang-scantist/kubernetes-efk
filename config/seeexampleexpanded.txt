@@ -1,0 +1,40 @@
+// prettier-ignore\n
+// SY - This is Javascript Object Literal Syntax
+var env = {\n
+  \"NODE_ENV\": \"cluster\",\n
+  \"GITHUB_CLIENT_ID\": \"7c2ad1c094b747f14ea8\",\n
+  \"GITHUB_URL\": \"https://github.com\",\n
+  \"GITHUB_OAUTH_SCOPE\": \"user:email,repo\",\n
+  \"GITLAB_CLIENT_ID\":\n
+  \"88bdb722e90d5ea53711058dcfdba28446043a6a756650d292bfff1a490fc7d3\",\n
+  \"GITLAB_URL\": \"http://114.119.186.219:8888\",\n
+  \"GITLAB_OAUTH_SCOPE\": \"read_user+read_repository+api\",\n
+  \"BITBUCKET_CLIENT_ID\": \"asdf\",\n
+  \"BITBUCKET_OAUTH_SCOPE\": \"\",\n
+  \"WEIXIN_APPID\": \"wx3b7d89db0c266f13\",\n
+  \"GITEE_OAUTH_SCOPE\": \"\",\n
+  \"GITEE_CLIENT_ID\": \"\",\n
+  \"GITEE_URL\": \"\",  \n
+  \"BITBUCKET_URL\": \"https://bitbucket.org/site\",\n
+  \"API_BASE\": \"https://api.scantist.cn/v1\",\n
+  \"PUSHER_KEY\": \"scantistcnk8s\",\n
+  \"PUSHER_HOST\": \"api.scantist.cn\",\n
+  \"PUSHER_PORT\": 443,\n
+  \"CLIENT_CALLBACK_URL\": \"https://scantist.cn/callback\",\n
+  \"SENTRY_DSN\": \"https://44758325f2834c4cb9a4790f458343da@o100043.ingest.sentry.io/5973138\",\n
+  \"STRIPE_PUBLIC_KEY\": \"pk_test_51KLJt4CbADz6OyDQJn0xLGNOYMIFaJYzG7qN2yxXCsVUxiNKlxWQCTgeLOEGhaaqqT4NwxJcT9ciUextfW49RHYj00YGKjoyob\",\n
+  \"CLIENT_ROOT\": \"https://scantist.cn\",\n
+  \"IS_ON_PREM\": \"false\",\n
+  \"IS_BITBUCKET_SERVER\": \"false\",\n
+  \"UPLOAD_SIZE\": 10000,\n
+  \"ENABLE_THIRD_PARTY_LOGIN\": true,\n
+  \"OKTA_CLIENT_ID\": \"\",\n
+  \"OKTA_BASE_URL\": \"\",\n
+  \"OKTA_ISSUER\": \"\",\n
+  \"SINGLE_LANGUAGE_MODE\": \"false\", \n
+  \"DEFAULT_LANGUAGE\": \"cn\",\n
+  \"COMPANY_NAME\": \"Scantist\",\n
+  \"COMPANY_LINK\": \"https://scantist.com\",\n
+  \"LOGO_PATH\": \"/static/img/scantist_logo.png\",\n
+  \"LONG_LOGO_PATH\": \"/static/img/scantistlogo_whitebg.png\",\n
+  \"SUPPORT_EMAIL\": \"support@scantist.com\"};"
